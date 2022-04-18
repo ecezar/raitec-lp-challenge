@@ -1,0 +1,76 @@
+@import url(/css/header.css);
+@import url(/css/section-1.css);
+@import url(/css/main.css);
+@import url(/css/servicos.css);
+@import url(/css/perfil.css);
+@import url(/css/saibamais.css);
+@import url(/css/footer.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000 ;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.container-form {
+  width: 578px;
+  margin: auto;
+}
+
+.btn-1 {
+  background: #3d3d3d;
+  width: 372px;
+  height: 78px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-1-span {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #DD902F 35.32%, rgba(236, 194, 140, 0.552083) 59.98%, #F6EB41 59.98%, #E6AC47 90.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.btn-2 {
+  font-family: 'Roboto';
+  width: 372px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.btn-2-span {
+  background: linear-gradient(270deg, #DD902F 21.32%, #F6EB41 43.84%, #E6AC47 80.09%);
+  border-radius: 10px;
+  height: 78px;
+  width: 372px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-3 {
+  background: linear-gradient(270deg, #DD902F 21.32%, #F6EB41 43.84%, #E6AC47 80.09%);
+  border-radius: 10px;
+  height: 78px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  color: #fff;
+  border: none;
+}

@@ -1,0 +1,67 @@
+.saiba-mais {
+  width: 792px;
+  height: 718px;
+  border: 2px solid #dd902f;
+  margin: 99px auto 0px;
+  border-radius: 10px;
+  display: flex;
+}
+.titulo-saiba-mais {
+  font-family: nunito;
+  font-weight: 700;
+  font-size: 50px;
+  background: linear-gradient(90deg, #DD902F 25.81%, #F6EB41 35.12%, #F6EB41 46.32%, #E6AC47 58.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+input {
+  width: 578px;
+  height: 74px;
+  border: 2px solid #DD902F;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+}
+input[placeholder] {
+  font-family: nunito;
+  font-size: 25px;
+  line-height: 34px;
+  font-weight: 700;
+  padding-left: 43px;
+  
+}
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #fff;  
+}
+
+:-ms-input-placeholder {  
+  color: #fff;  
+}
+
+@media(max-width: 1250px) {
+  .saiba-mais {
+    width: auto;
+  }
+  form {
+    margin: 0px 5%;
+  }
+  input {
+    width: auto;
+  }
+}

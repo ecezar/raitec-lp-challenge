@@ -1,0 +1,51 @@
+.titulo-perfil {
+  font-family: Nunito, monospace;
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 154px;
+}
+.titulo-nome {
+  font-family: nunito;
+  font-size: 50px;
+  background: linear-gradient(90deg, #DD902F 25.81%, #F6EB41 35.12%, #F6EB41 46.32%, #E6AC47 58.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.sobre {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 98px;
+}
+.infos-texto {
+  display: flex;
+  flex-direction: column ;
+  justify-content: space-between;
+}
+.infos-texto p {
+  width: 30ch;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 55px;
+  color: #898989;
+}
+
+@media(max-width: 1250px) {
+  .sobre{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+  }
+  .titulo-perfil{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .sobre p, .sobre h1 {
+    text-align: center;
+  }
+  .foto-perfil {
+    margin-top: 25px;
+  }
+}

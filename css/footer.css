@@ -1,0 +1,32 @@
+footer{
+  height: 354px;
+  margin-top: 66px;
+  background: #2E2D2D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer p {
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+}
+.logos-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.redes-logo img {
+  margin-left: 20px;
+}
+.rights {
+  height: 106px;
+  text-align: center;
+}
+
+@media(max-width: 1250px) {
+  .logos-footer {
+    padding: 55px;
+  }
+}
