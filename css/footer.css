@@ -16,6 +16,7 @@ footer p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 .redes-logo img {
   margin-left: 20px;
@@ -27,6 +28,8 @@ footer p {
 
 @media(max-width: 1250px) {
   .logos-footer {
-    padding: 55px;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
   }
 }
