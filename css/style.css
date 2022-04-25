@@ -13,12 +13,15 @@ body {
   background-color: #000 ;
 }
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
 .container-form {
   width: 578px;
   margin: auto;
+}
+.container-mobile {
+  width: auto;
 }
 
 .btn-1 {
@@ -73,4 +76,10 @@ body {
   font-size: 36px;
   color: #fff;
   border: none;
+}
+
+@media (max-width: 1250px) {
+  .container-form {
+    width: 75%;
+  }
 }
