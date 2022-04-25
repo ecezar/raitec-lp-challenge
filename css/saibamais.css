@@ -57,6 +57,7 @@ input[placeholder] {
 @media(max-width: 1250px) {
   .saiba-mais {
     width: auto;
+    margin: 99px;
   }
   form {
     margin: 0px 5%;
